@@ -2,19 +2,25 @@
   "name": "cse-341",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/coltonkramer/cse-341.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Colton Kramer",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/coltonkramer/cse-341/issues"
   },
-  "homepage": "https://github.com/coltonkramer/cse-341#readme"
+  "homepage": "https://github.com/coltonkramer/cse-341#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
